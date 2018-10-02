@@ -4,8 +4,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
-import { TestPage } from '../pages/test/test';
 import { AlternancePage } from '../pages/alternance/alternance';
 import { BdePage } from '../pages/bde/bde';
 import { CompetencesPage } from '../pages/competences/competences';
@@ -29,12 +27,17 @@ export class MyApp {
   rootPage: any = HomePage;
 
   pages: Array<{title: string, component: any}>;
+  campus: Array<{title: string, component: any}>;
+  formations: Array<{title: string, component: any}>;
+  vie: Array<{title: string, component: any}>;
+  plus: Array<{title: string, component: any}>;
+  bool: boolean;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
-    this.pages = [
+   /* this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
       { title: 'En savoir plus', component: TestPage },
@@ -51,6 +54,39 @@ export class MyApp {
       { title: 'SUAPS', component: SuapsPage },
       { title: 'Les espaces de travail', component: TravailPage },
       { title: 'Les espaces de vie', component: ViePage }
+    ];*/
+    this.bool = false;
+
+        this.campus = [
+      { title: 'Espace MyDil', component: MydilPage },
+      { title: 'Les 2 sites géographique', component: SitesPage },
+      { title: 'Les espaces de travail', component: TravailPage },
+      { title: 'Les espaces de vie', component: ViePage }
+    ];
+
+        this.formations = [
+      { title: 'L\'alternance', component: AlternancePage },
+      { title: 'Les competences', component: CompetencesPage },
+      { title: 'Formation continue', component: FormationPage }
+    ];
+
+        this.vie = [
+      { title: 'BDE', component: BdePage },
+      { title: 'Foodtruck', component: FoodtruckPage },
+      { title: 'SUAPS', component: SuapsPage }
+    ];
+
+        this.plus = [
+      { title: 'Nous contacter', component: ContacterPage },
+      { title: 'La ville de Montpellier', component: MtpPage },
+      { title: 'Le STAFF', component: StaffPage }
+    ];
+
+        this.pages = [
+      { title: 'Le campus', component: this.campus },
+      { title: 'Les formations', component: this.formations },
+      { title: 'La vie au campus', component: this.campus },
+      { title: 'En savoir plus', component: this.plus }
     ];
 
   }
@@ -67,6 +103,10 @@ export class MyApp {
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-    this.nav.setRoot(page.component);
+   this.nav.setRoot(page.component);
+  }
+
+  openList(page){
+    this.bool = true ;
   }
 }
