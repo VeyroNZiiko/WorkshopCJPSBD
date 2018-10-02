@@ -31,32 +31,20 @@ export class MyApp {
   formations: Array<{title: string, component: any}>;
   vie: Array<{title: string, component: any}>;
   plus: Array<{title: string, component: any}>;
-  bool: boolean;
+  boolCamp: boolean;
+  boolForm: boolean;
+  boolPlus: boolean;
+  boolVie: boolean;
+  choix: Array<{title: string, component: any}>;;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
     this.initializeApp();
 
     // used for an example of ngFor and navigation
-   /* this.pages = [
-      { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage },
-      { title: 'En savoir plus', component: TestPage },
-      { title: 'L\'alternance', component: AlternancePage },
-      { title: 'BDE', component: BdePage },
-      { title: 'Les competences', component: CompetencesPage },
-      { title: 'Nous contacter', component: ContacterPage },
-      { title: 'Foodtruck', component: FoodtruckPage },
-      { title: 'Formation continue', component: FormationPage },
-      { title: 'La ville de Montpellier', component: MtpPage },
-      { title: 'Espace MyDil', component: MydilPage },
-      { title: 'Les 2 sites géographique', component: SitesPage },
-      { title: 'Le STAFF', component: StaffPage },
-      { title: 'SUAPS', component: SuapsPage },
-      { title: 'Les espaces de travail', component: TravailPage },
-      { title: 'Les espaces de vie', component: ViePage }
-    ];*/
-    this.bool = false;
-
+    this.boolCamp = false;
+    this.boolForm = false;
+    this.boolPlus = false;
+    this.boolVie = false;
         this.campus = [
       { title: 'Espace MyDil', component: MydilPage },
       { title: 'Les 2 sites géographique', component: SitesPage },
@@ -103,10 +91,23 @@ export class MyApp {
   openPage(page) {
     // Reset the content nav to have just this page
     // we wouldn't want the back button to show in this scenario
-   this.nav.setRoot(page.component);
+  console.log(page);
+  this.nav.setRoot(page.component);
   }
 
-  openList(page){
-    this.bool = true ;
+  openList(p){
+    if (p.title == "Le campus") {
+      this.boolCamp = !this.boolCamp;
+    } 
+    if (p.title == "Les formations") {
+      this.boolForm = !this.boolForm;
+    }
+    if (p.title == "La vie au campus") {
+      this.boolVie = !this.boolVie;
+    }
+    if (p.title == "En savoir plus") {
+      this.boolPlus = !this.boolPlus;
+    }
+    this.choix = p.component;
   }
 }

@@ -6,19 +6,58 @@
   </ion-header>
 
   <ion-content>
-    <ion-list>
-      <button  ion-item *ngFor="let p of pages" (click)="openList(p)"> <!-- Open List ici --> 
-        {{p.title}}
-          <ion-list *ngIf="bool">
-            <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)"> <!-- Open List ici --> 
+      <button ion-item (click)="openList(pages[0])"> <!-- Open List ici --> 
+        {{pages[0].title}}
+          <ion-list *ngIf="boolCamp">
+            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> 
               {{p.title}}
             </button>
         </ion-list>
       </button>
-    </ion-list>
+
+      <button ion-item (click)="openList(pages[1])"> <!-- Open List ici --> 
+        {{pages[1].title}}
+          <ion-list *ngIf="boolForm">
+            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> 
+              {{p.title}}
+            </button>
+        </ion-list>
+      </button>
+
+      <button ion-item (click)="openList(pages[2])"> <!-- Open List ici --> 
+        {{pages[2].title}}
+          <ion-list *ngIf="boolVie">
+            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> 
+              {{p.title}}
+            </button>
+        </ion-list>
+      </button>
+
+      <button ion-item (click)="openList(pages[3])"> <!-- Open List ici --> 
+        {{pages[3].title}}
+          <ion-list *ngIf="boolPlus">
+            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> 
+              {{p.title}}
+            </button>
+        </ion-list>
+      </button>
+
   </ion-content>
 
 </ion-menu>
 
 <!-- Disable swipe-to-go-back because it's poor UX to combine STGB with side menus -->
 <ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>
+
+<!--   <ion-content>
+    <ion-list>
+      <button ion-item (click)="openList(p)"> Open List ici 
+        {{pages[0].title}}
+          <ion-list *ngIf="bool">
+            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> Open List ici  
+              {{p.title}}
+            </button>
+        </ion-list>
+      </button>
+    </ion-list>
+  </ion-content> -->
