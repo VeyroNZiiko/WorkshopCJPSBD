@@ -6,41 +6,41 @@
   </ion-header>
 
   <ion-content>
-      <button ion-item (click)="openList(pages[0])"> <!-- Open List ici --> 
+      <p ion-item (click)="openList(pages[0])"> <!-- Open List ici --> 
         {{pages[0].title}}
           <ion-list *ngIf="boolCamp">
             <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> 
               {{p.title}}
             </button>
         </ion-list>
-      </button>
+      </p>
 
-      <button ion-item (click)="openList(pages[1])"> <!-- Open List ici --> 
+      <p ion-item (click)="openList(pages[1])"> <!-- Open List ici --> 
         {{pages[1].title}}
           <ion-list *ngIf="boolForm">
             <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> 
               {{p.title}}
             </button>
         </ion-list>
-      </button>
+      </p>
 
-      <button ion-item (click)="openList(pages[2])"> <!-- Open List ici --> 
+      <p ion-item (click)="openList(pages[2])"> <!-- Open List ici --> 
         {{pages[2].title}}
           <ion-list *ngIf="boolVie">
             <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> 
               {{p.title}}
             </button>
         </ion-list>
-      </button>
+      </p>
 
-      <button ion-item (click)="openList(pages[3])"> <!-- Open List ici --> 
+      <p ion-item (click)="openList(pages[3])"> <!-- Open List ici --> 
         {{pages[3].title}}
           <ion-list *ngIf="boolPlus">
             <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> 
               {{p.title}}
             </button>
         </ion-list>
-      </button>
+      </p>
 
   </ion-content>
 
