@@ -16,7 +16,15 @@
 // automatically applied to the <body> element in the app.
 
 ion-content {
-    background-image: url('background.jpg');
+    background-image: url('../assets/imgs/background.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+
+ion-item.item.item-block.item-md{
+	background-color: rgba(0, 0, 255, 0);
+}
+
+button.item.item-block.item-md{
+	background-color: rgba(0, 0, 255, 0);
 }
