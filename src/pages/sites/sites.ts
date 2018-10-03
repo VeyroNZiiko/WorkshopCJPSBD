@@ -1,5 +1,5 @@
 import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
-import { GoogleMaps, LatLng, GoogleMap, GoogleMapsEvent, MarkerOptions, Marker/*,CameraPosition */} from '@ionic-native/google-maps';
+import { GoogleMaps, LatLng, GoogleMap, GoogleMapsEvent, MarkerOptions, Marker,CameraPosition } from '@ionic-native/google-maps';
 import { Component } from "@angular/core/";
 
 
@@ -31,19 +31,19 @@ export class SitesPage {
   		console.log("Map is ready");
   		});
 
-  	let ionic: LatLng = new LatLng(43.0741904,-89.3809802);
-/*
-  	let position : CameraPosition = {
-  		target:ionic,
-  		zoom:18,
-  		tilt:30,
-      bearing:40
+  	let coord: LatLng = new LatLng(43.0741904,-89.3809802);
+
+  	let position : CameraPosition<LatLng> = {
+  		target: {lat:43.0741904 , lng : -89.3809802},
+      zoom: 10
   	};
 
-  	map.moveCamera(position);*/
+ /*   let position : CameraPosition = new CameraPosition(coord,18,30,40);*/
+
+  	map.moveCamera(position);
 
   	let markerOptions :MarkerOptions = {
-  		position: ionic,
+  		position: coord,
   		title: 'Ionic'
   	};
 

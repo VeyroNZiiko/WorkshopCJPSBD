@@ -8,6 +8,6 @@ import { SitesPage } from './sites';
   ],
   imports: [
     IonicPageModule.forChild(SitesPage),
-  ],
+  ]
 })
 export class SitesPageModule {}

@@ -20,7 +20,7 @@ import { SuapsPage } from '../pages/suaps/suaps';
 import { TravailPage } from '../pages/travail/travail';
 import { ViePage } from '../pages/vie/vie';
 
-import { GoogleMaps } from '@ionic-native/google-maps'
+import { GoogleMaps } from '@ionic-native/google-maps';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 

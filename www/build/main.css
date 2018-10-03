@@ -25692,10 +25692,9 @@ button.item.item-block.item-md {
   text-align: center;
 }
 
-ion-app._gmaps_cdv_ .nav-decor {
-  background-color: transparent !important;
-}
-
+/*ion-app._gmaps_cdv_ .nav-decor{
+	background-color: transparent !important; 
+}*/
 page-sites #map {
   height: 100%;
 }
