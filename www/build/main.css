@@ -25691,3 +25691,11 @@ button.item.item-block.item-md {
 .but {
   text-align: center;
 }
+
+ion-app._gmaps_cdv_ .nav-decor {
+  background-color: transparent !important;
+}
+
+page-sites #map {
+  height: 100%;
+}

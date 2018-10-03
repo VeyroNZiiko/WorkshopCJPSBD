@@ -4,6 +4,51 @@ webpackJsonp([14],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlternancePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AlternancePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AlternancePage = /** @class */ (function () {
+    function AlternancePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AlternancePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AlternancePage');
+    };
+    AlternancePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-alternance',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\alternance\alternance.html"*/'<!--\n\n  Generated template for the AlternancePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>L\'alternance</ion-title>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-card>\n\n	  <ion-card-content>\n\n	    <h2> Qu\'est ce que l\'alternance ? </h2>\n\n	  </ion-card-content>\n\n  </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\alternance\alternance.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], AlternancePage);
+    return AlternancePage;
+}());
+
+//# sourceMappingURL=alternance.js.map
+
+/***/ }),
+
+/***/ 101:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BdePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
@@ -42,51 +87,6 @@ var BdePage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=bde.js.map
-
-/***/ }),
-
-/***/ 101:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompetencesPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the CompetencesPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var CompetencesPage = /** @class */ (function () {
-    function CompetencesPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    CompetencesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CompetencesPage');
-    };
-    CompetencesPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-competences',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\competences\competences.html"*/'<!--\n  Generated template for the CompetencesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>    \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>competences</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\competences\competences.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], CompetencesPage);
-    return CompetencesPage;
-}());
-
-//# sourceMappingURL=competences.js.map
 
 /***/ }),
 
@@ -184,7 +184,7 @@ var FoodtruckPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormationPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompetencesPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -199,78 +199,33 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the FormationPage page.
+ * Generated class for the CompetencesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var FormationPage = /** @class */ (function () {
-    function FormationPage(navCtrl, navParams) {
+var CompetencesPage = /** @class */ (function () {
+    function CompetencesPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    FormationPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad FormationPage');
+    CompetencesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CompetencesPage');
     };
-    FormationPage = __decorate([
+    CompetencesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-formation',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\formation\formation.html"*/'<!--\n  Generated template for the FormationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>   \n   <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>formation</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\formation\formation.html"*/,
+            selector: 'page-competences',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\competences\competences.html"*/'<!--\n  Generated template for the CompetencesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>    \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>competences</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\competences\competences.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], FormationPage);
-    return FormationPage;
+    ], CompetencesPage);
+    return CompetencesPage;
 }());
 
-//# sourceMappingURL=formation.js.map
+//# sourceMappingURL=competences.js.map
 
 /***/ }),
 
 /***/ 105:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MtpPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the MtpPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var MtpPage = /** @class */ (function () {
-    function MtpPage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    MtpPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad MtpPage');
-    };
-    MtpPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-mtp',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\mtp\mtp.html"*/'<!--\n  Generated template for the MtpPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>    \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>mtp</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\mtp\mtp.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], MtpPage);
-    return MtpPage;
-}());
-
-//# sourceMappingURL=mtp.js.map
-
-/***/ }),
-
-/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -315,11 +270,11 @@ var MydilPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 107:
+/***/ 106:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SitesPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MtpPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -334,24 +289,97 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the SitesPage page.
+ * Generated class for the MtpPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var SitesPage = /** @class */ (function () {
-    function SitesPage(navCtrl, navParams) {
+var MtpPage = /** @class */ (function () {
+    function MtpPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    SitesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad SitesPage');
+    MtpPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad MtpPage');
     };
-    SitesPage = __decorate([
+    MtpPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-sites',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\sites\sites.html"*/'<!--\n  Generated template for the SitesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>     \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>sites</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\sites\sites.html"*/,
+            selector: 'page-mtp',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\mtp\mtp.html"*/'<!--\n  Generated template for the MtpPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>    \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>mtp</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\mtp\mtp.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], MtpPage);
+    return MtpPage;
+}());
+
+//# sourceMappingURL=mtp.js.map
+
+/***/ }),
+
+/***/ 107:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SitesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_google_maps__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core___ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var SitesPage = /** @class */ (function () {
+    function SitesPage(navCtrl, navParams, platform) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.platform = platform;
+        platform.ready().then(function () {
+            _this.loadMap();
+        });
+    }
+    /*  ionViewDidLoad() {
+        console.log('ionViewDidLoad SitesPage');
+        this.loadMap();
+      }
+    */
+    SitesPage.prototype.loadMap = function () {
+        var element = document.getElementById('map');
+        var map = __WEBPACK_IMPORTED_MODULE_1__ionic_native_google_maps__["a" /* GoogleMaps */].create(element);
+        map.one(__WEBPACK_IMPORTED_MODULE_1__ionic_native_google_maps__["b" /* GoogleMapsEvent */].MAP_READY).then(function () {
+            console.log("Map is ready");
+        });
+        var ionic = new __WEBPACK_IMPORTED_MODULE_1__ionic_native_google_maps__["c" /* LatLng */](43.0741904, -89.3809802);
+        /*
+            let position : CameraPosition = {
+                target:ionic,
+                zoom:18,
+                tilt:30,
+              bearing:40
+            };
+        
+            map.moveCamera(position);*/
+        var markerOptions = {
+            position: ionic,
+            title: 'Ionic'
+        };
+        map.addMarker(markerOptions)
+            .then(function (marker) {
+            marker.showInfoWindow();
+        });
+    };
+    SitesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_2__angular_core___["m" /* Component */])({
+            selector: 'page-sites',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\sites\sites.html"*/'<!--\n  Generated template for the SitesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>     \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>sites</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n	<div id="map"></div>\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\sites\sites.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_0_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["g" /* NavParams */], __WEBPACK_IMPORTED_MODULE_0_ionic_angular__["h" /* Platform */]])
     ], SitesPage);
     return SitesPage;
 }());
@@ -454,6 +482,51 @@ var SuapsPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FormationPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the FormationPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var FormationPage = /** @class */ (function () {
+    function FormationPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    FormationPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad FormationPage');
+    };
+    FormationPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-formation',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\formation\formation.html"*/'<!--\n  Generated template for the FormationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>   \n   <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>formation</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\formation\formation.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], FormationPage);
+    return FormationPage;
+}());
+
+//# sourceMappingURL=formation.js.map
+
+/***/ }),
+
+/***/ 111:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TravailPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
@@ -495,7 +568,7 @@ var TravailPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 111:
+/***/ 112:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -540,7 +613,7 @@ var ViePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 121:
+/***/ 122:
 /***/ (function(module, exports) {
 
 function webpackEmptyAsyncContext(req) {
@@ -553,40 +626,40 @@ function webpackEmptyAsyncContext(req) {
 webpackEmptyAsyncContext.keys = function() { return []; };
 webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
 module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = 121;
+webpackEmptyAsyncContext.id = 122;
 
 /***/ }),
 
-/***/ 162:
+/***/ 163:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
 	"../pages/alternance/alternance.module": [
-		283,
+		285,
 		13
 	],
 	"../pages/bde/bde.module": [
-		284,
+		286,
 		12
 	],
 	"../pages/competences/competences.module": [
-		285,
+		289,
 		11
 	],
 	"../pages/contacter/contacter.module": [
-		286,
+		287,
 		10
 	],
 	"../pages/foodtruck/foodtruck.module": [
-		287,
+		288,
 		9
 	],
 	"../pages/formation/formation.module": [
-		288,
+		296,
 		8
 	],
 	"../pages/mtp/mtp.module": [
-		289,
+		291,
 		7
 	],
 	"../pages/mydil/mydil.module": [
@@ -594,15 +667,15 @@ var map = {
 		6
 	],
 	"../pages/sites/sites.module": [
-		291,
+		292,
 		5
 	],
 	"../pages/staff/staff.module": [
-		292,
+		293,
 		4
 	],
 	"../pages/suaps/suaps.module": [
-		293,
+		295,
 		3
 	],
 	"../pages/test/test.module": [
@@ -610,11 +683,11 @@ var map = {
 		2
 	],
 	"../pages/travail/travail.module": [
-		295,
+		297,
 		1
 	],
 	"../pages/vie/vie.module": [
-		296,
+		298,
 		0
 	]
 };
@@ -629,12 +702,12 @@ function webpackAsyncContext(req) {
 webpackAsyncContext.keys = function webpackAsyncContextKeys() {
 	return Object.keys(map);
 };
-webpackAsyncContext.id = 162;
+webpackAsyncContext.id = 163;
 module.exports = webpackAsyncContext;
 
 /***/ }),
 
-/***/ 206:
+/***/ 208:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -669,7 +742,7 @@ var HomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 207:
+/***/ 209:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -714,13 +787,13 @@ var TestPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 208:
+/***/ 210:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(209);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(231);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(233);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -728,7 +801,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 231:
+/***/ 233:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -736,31 +809,33 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(274);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(282);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_test_test__ = __webpack_require__(207);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_alternance_alternance__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_bde_bde__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_competences_competences__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_test_test__ = __webpack_require__(209);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_alternance_alternance__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_bde_bde__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_competences_competences__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contacter_contacter__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_foodtruck_foodtruck__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_formation_formation__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_mtp_mtp__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_mydil_mydil__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_formation_formation__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_mtp_mtp__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_mydil_mydil__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_sites_sites__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_staff_staff__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_suaps_suaps__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_travail_travail__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_vie_vie__ = __webpack_require__(111);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_splash_screen__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_travail_travail__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_vie_vie__ = __webpack_require__(112);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__ionic_native_google_maps__ = __webpack_require__(164);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_splash_screen__ = __webpack_require__(207);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -813,16 +888,16 @@ var AppModule = /** @class */ (function () {
                     links: [
                         { loadChildren: '../pages/alternance/alternance.module#AlternancePageModule', name: 'AlternancePage', segment: 'alternance', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/bde/bde.module#BdePageModule', name: 'BdePage', segment: 'bde', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/competences/competences.module#CompetencesPageModule', name: 'CompetencesPage', segment: 'competences', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contacter/contacter.module#ContacterPageModule', name: 'ContacterPage', segment: 'contacter', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/foodtruck/foodtruck.module#FoodtruckPageModule', name: 'FoodtruckPage', segment: 'foodtruck', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/formation/formation.module#FormationPageModule', name: 'FormationPage', segment: 'formation', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/mtp/mtp.module#MtpPageModule', name: 'MtpPage', segment: 'mtp', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/competences/competences.module#CompetencesPageModule', name: 'CompetencesPage', segment: 'competences', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mydil/mydil.module#MydilPageModule', name: 'MydilPage', segment: 'mydil', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/mtp/mtp.module#MtpPageModule', name: 'MtpPage', segment: 'mtp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/sites/sites.module#SitesPageModule', name: 'SitesPage', segment: 'sites', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/staff/staff.module#StaffPageModule', name: 'StaffPage', segment: 'staff', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/suaps/suaps.module#SuapsPageModule', name: 'SuapsPage', segment: 'suaps', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/test/test.module#TestPageModule', name: 'TestPage', segment: 'test', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/suaps/suaps.module#SuapsPageModule', name: 'SuapsPage', segment: 'suaps', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/formation/formation.module#FormationPageModule', name: 'FormationPage', segment: 'formation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/travail/travail.module#TravailPageModule', name: 'TravailPage', segment: 'travail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/vie/vie.module#ViePageModule', name: 'ViePage', segment: 'vie', priority: 'low', defaultHistory: [] }
                     ]
@@ -849,8 +924,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_19__pages_vie_vie__["a" /* ViePage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_20__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_21__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_21__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_22__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_20__ionic_native_google_maps__["a" /* GoogleMaps */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
             ]
         })
@@ -862,29 +938,29 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 274:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alternance_alternance__ = __webpack_require__(99);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bde_bde__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_competences_competences__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alternance_alternance__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bde_bde__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_competences_competences__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contacter_contacter__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_foodtruck_foodtruck__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_formation_formation__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_mtp_mtp__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_mydil_mydil__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_formation_formation__ = __webpack_require__(110);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_mtp_mtp__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_mydil_mydil__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sites_sites__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_staff_staff__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_suaps_suaps__ = __webpack_require__(109);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_travail_travail__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_vie_vie__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_travail_travail__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_vie_vie__ = __webpack_require__(112);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -999,7 +1075,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 282:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1054,52 +1130,7 @@ var ListPage = /** @class */ (function () {
 
 //# sourceMappingURL=list.js.map
 
-/***/ }),
-
-/***/ 99:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlternancePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the AlternancePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AlternancePage = /** @class */ (function () {
-    function AlternancePage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    AlternancePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AlternancePage');
-    };
-    AlternancePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-alternance',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\alternance\alternance.html"*/'<!--\n\n  Generated template for the AlternancePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>L\'alternance</ion-title>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-card>\n\n	  <ion-card-content>\n\n	    <h2> Qu\'est ce que l\'alternance ? </h2>\n\n	  </ion-card-content>\n\n  </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\alternance\alternance.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], AlternancePage);
-    return AlternancePage;
-}());
-
-//# sourceMappingURL=alternance.js.map
-
 /***/ })
 
-},[208]);
+},[210]);
 //# sourceMappingURL=main.js.map
