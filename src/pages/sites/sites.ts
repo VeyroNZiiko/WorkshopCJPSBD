@@ -1,6 +1,8 @@
 import { Component, ViewChild } from "@angular/core/";
 import { NavController} from 'ionic-angular';
 
+declare var google;
+
 @Component({
   selector: 'page-sites',
   templateUrl: 'sites.html',
@@ -12,12 +14,12 @@ export class SitesPage {
   constructor(public navCtrl: NavController) {
   }
 
- /* ionViewDidLoad(){
+  ionViewDidLoad(){
     this.initMap();
   }
 
   initMap(){
-    let latLng = new google.maps.LatLng(48.862725,2.2875920);
+    let latLng = new google.maps.LatLng(43.610769,3.876716);
 
     let mapOptions = {
       center:latLng,
@@ -25,7 +27,6 @@ export class SitesPage {
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
-    this.map = new.google.maps.Map(this.mapElement.nativeElement, mapOptions);
+    this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
   }
-*/
 }
