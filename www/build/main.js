@@ -194,7 +194,11 @@ var FoodtruckPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ContacterPage; });
+=======
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FoodtruckPage; });
+>>>>>>> 7cfb6de61ef2139f62a0a84b0e97b61c30a72f8a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -209,11 +213,16 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
+<<<<<<< HEAD
  * Generated class for the ContacterPage page.
+=======
+ * Generated class for the FoodtruckPage page.
+>>>>>>> 7cfb6de61ef2139f62a0a84b0e97b61c30a72f8a
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
+<<<<<<< HEAD
 var ContacterPage = /** @class */ (function () {
     function ContacterPage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
@@ -232,6 +241,26 @@ var ContacterPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=contacter.js.map
+=======
+var FoodtruckPage = /** @class */ (function () {
+    function FoodtruckPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    FoodtruckPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad FoodtruckPage');
+    };
+    FoodtruckPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-foodtruck',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\foodtruck\foodtruck.html"*/'<!--\n  Generated template for the FoodtruckPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>    \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>foodtruck</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\foodtruck\foodtruck.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], FoodtruckPage);
+    return FoodtruckPage;
+}());
+
+//# sourceMappingURL=foodtruck.js.map
+>>>>>>> 7cfb6de61ef2139f62a0a84b0e97b61c30a72f8a
 
 /***/ }),
 
@@ -269,7 +298,11 @@ var FormationPage = /** @class */ (function () {
     };
     FormationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+<<<<<<< HEAD
             selector: 'page-formation',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\formation\formation.html"*/'<!--\n\n  Generated template for the FormationPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>   \n\n   <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>formation</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\formation\formation.html"*/,
+=======
+            selector: 'page-formation',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\formation\formation.html"*/'<!--\n  Generated template for the FormationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>   \n   <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>formation</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\formation\formation.html"*/,
+>>>>>>> 7cfb6de61ef2139f62a0a84b0e97b61c30a72f8a
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], FormationPage);
@@ -588,7 +621,11 @@ var map = {
 		9
 	],
 	"../pages/foodtruck/foodtruck.module": [
+<<<<<<< HEAD
 		289,
+=======
+		290,
+>>>>>>> 7cfb6de61ef2139f62a0a84b0e97b61c30a72f8a
 		8
 	],
 	"../pages/formation/formation.module": [
@@ -762,6 +799,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(283);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_test_test__ = __webpack_require__(209);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_alternance_alternance__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_bde_bde__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_competences_competences__ = __webpack_require__(103);
@@ -770,6 +808,16 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_formation_formation__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_mtp_mtp__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_mydil_mydil__ = __webpack_require__(108);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_alternance_alternance__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_bde_bde__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_competences_competences__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contacter_contacter__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_foodtruck_foodtruck__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_formation_formation__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_mtp_mtp__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_mydil_mydil__ = __webpack_require__(107);
+>>>>>>> 7cfb6de61ef2139f62a0a84b0e97b61c30a72f8a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_sites_sites__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_staff_staff__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_suaps_suaps__ = __webpack_require__(110);
@@ -842,6 +890,10 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/competences/competences.module#CompetencesPageModule', name: 'CompetencesPage', segment: 'competences', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/foodtruck/foodtruck.module#FoodtruckPageModule', name: 'FoodtruckPage', segment: 'foodtruck', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contacter/contacter.module#ContacterPageModule', name: 'ContacterPage', segment: 'contacter', priority: 'low', defaultHistory: [] },
+<<<<<<< HEAD
+=======
+                        { loadChildren: '../pages/foodtruck/foodtruck.module#FoodtruckPageModule', name: 'FoodtruckPage', segment: 'foodtruck', priority: 'low', defaultHistory: [] },
+>>>>>>> 7cfb6de61ef2139f62a0a84b0e97b61c30a72f8a
                         { loadChildren: '../pages/formation/formation.module#FormationPageModule', name: 'FormationPage', segment: 'formation', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mtp/mtp.module#MtpPageModule', name: 'MtpPage', segment: 'mtp', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mydil/mydil.module#MydilPageModule', name: 'MydilPage', segment: 'mydil', priority: 'low', defaultHistory: [] },
@@ -896,6 +948,7 @@ var AppModule = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(206);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(207);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(46);
@@ -907,6 +960,19 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_formation_formation__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_mtp_mtp__ = __webpack_require__(107);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_mydil_mydil__ = __webpack_require__(108);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alternance_alternance__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bde_bde__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_competences_competences__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contacter_contacter__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_foodtruck_foodtruck__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_formation_formation__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_mtp_mtp__ = __webpack_require__(106);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_mydil_mydil__ = __webpack_require__(107);
+>>>>>>> 7cfb6de61ef2139f62a0a84b0e97b61c30a72f8a
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_sites_sites__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_staff_staff__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_suaps_suaps__ = __webpack_require__(110);
