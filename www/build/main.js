@@ -94,7 +94,7 @@ var BdePage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CompetencesPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlternancePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -109,29 +109,29 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 /**
- * Generated class for the CompetencesPage page.
+ * Generated class for the AlternancePage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
-var CompetencesPage = /** @class */ (function () {
-    function CompetencesPage(navCtrl, navParams) {
+var AlternancePage = /** @class */ (function () {
+    function AlternancePage(navCtrl, navParams) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
     }
-    CompetencesPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad CompetencesPage');
+    AlternancePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AlternancePage');
     };
-    CompetencesPage = __decorate([
+    AlternancePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-competences',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\competences\competences.html"*/'<!--\n  Generated template for the CompetencesPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>    \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>competences</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\competences\competences.html"*/,
+            selector: 'page-alternance',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\alternance\alternance.html"*/'<!--\n\n  Generated template for the AlternancePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>L\'alternance</ion-title>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-card class="titre">\n\n    <ion-card-content>\n\n        <ion-card-title>\n\n          L’alternance à l’EPSI c’est:\n\n        </ion-card-title>\n\n    </ion-card-content>\n\n  </ion-card>\n\n  \n\n    <ion-card class="art">\n\n      <ion-card-content>\n\n          <li> 10 000 entreprises partenaires : résolument tournée vers le monde de l’entreprise, l’EPSI\n\n          entretient des liens forts avec de nombreuses entreprises régionales et nationales. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>    \n\n          <li> Un suivi personnalisé pour chaque apprenant: une aide à la recherche d’entreprise, à la\n\n          rédaction du CV, lettre de motivation, entretien. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>    \n\n          <li> Développement d’un projet professionnel : l’EPSI favorise la réussite de chacun en\n\n          trouvant des missions en entreprise qui vous correspondent et vous font progresser. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>      \n\n          <li> Une aide au montage du contrat : l’école aide les entreprises au recrutement et participe\n\n          au montage du contrat. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\alternance\alternance.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], CompetencesPage);
-    return CompetencesPage;
+    ], AlternancePage);
+    return AlternancePage;
 }());
 
-//# sourceMappingURL=competences.js.map
+//# sourceMappingURL=alternance.js.map
 
 /***/ }),
 
@@ -169,7 +169,7 @@ var ContacterPage = /** @class */ (function () {
     };
     ContacterPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contacter',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\contacter\contacter.html"*/'<!--\n  Generated template for the ContacterPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>contacter</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\contacter\contacter.html"*/,
+            selector: 'page-contacter',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\contacter\contacter.html"*/'<!--\n\n  Generated template for the ContacterPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n  	<button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>contacter</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\contacter\contacter.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ContacterPage);
@@ -214,7 +214,7 @@ var FoodtruckPage = /** @class */ (function () {
     };
     FoodtruckPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-foodtruck',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\foodtruck\foodtruck.html"*/'<!--\n  Generated template for the FoodtruckPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>    \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>foodtruck</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\foodtruck\foodtruck.html"*/,
+            selector: 'page-foodtruck',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\foodtruck\foodtruck.html"*/'<!--\n\n  Generated template for the FoodtruckPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>    \n\n  	<button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>foodtruck</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\foodtruck\foodtruck.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], FoodtruckPage);
@@ -259,7 +259,7 @@ var FormationPage = /** @class */ (function () {
     };
     FormationPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-formation',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\formation\formation.html"*/'<!--\n  Generated template for the FormationPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>   \n   <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>formation</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\formation\formation.html"*/,
+            selector: 'page-formation',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\formation\formation.html"*/'<!--\n\n  Generated template for the FormationPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>   \n\n   <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>formation</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\formation\formation.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], FormationPage);
@@ -349,7 +349,7 @@ var MydilPage = /** @class */ (function () {
     };
     MydilPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-mydil',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\mydil\mydil.html"*/'<!--\n  Generated template for the MydilPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>     \n  	<button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>mydil</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\mydil\mydil.html"*/,
+            selector: 'page-mydil',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\mydil\mydil.html"*/'<!--\n\n  Generated template for the MydilPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>     \n\n  	<button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>mydil</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\mydil\mydil.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], MydilPage);
@@ -529,7 +529,7 @@ var ViePage = /** @class */ (function () {
     };
     ViePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-vie',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\vie\vie.html"*/'<!--\n  Generated template for the ViePage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>  \n     <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>vie</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\vie\vie.html"*/,
+            selector: 'page-vie',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\vie\vie.html"*/'<!--\n\n  Generated template for the ViePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>  \n\n     <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>vie</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\vie\vie.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ViePage);
@@ -563,7 +563,7 @@ webpackEmptyAsyncContext.id = 121;
 var map = {
 	"../pages/alternance/alternance.module": [
 		285,
-		12
+		11
 	],
 	"../pages/bde/bde.module": [
 		286,
@@ -654,7 +654,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding class="acceuil">\n\n  <ion-card>\n\n      <ion-card-content>\n\n          <img src="assets/imgs/epsi_1.png" >\n\n      </ion-card-content>\n\n  </ion-card>\n\n\n\n  <button ion-button secondary menuToggle="but">Menu</button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding class="acceuil">\n\n  <ion-card>\n\n      <ion-card-content>\n\n          <img src="assets/imgs/epsi_1.png" >\n\n      </ion-card-content>\n\n  </ion-card>\n\n\n\n  <button ion-button secondary menuToggle="but">Menu</button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */]])
     ], HomePage);
@@ -751,7 +751,7 @@ var TestPage = /** @class */ (function () {
     };
     TestPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-test',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\test\test.html"*/'<!--\n  Generated template for the TestPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>  \n     <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>test</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\test\test.html"*/,
+            selector: 'page-test',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\test\test.html"*/'<!--\n\n  Generated template for the TestPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>  \n\n     <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>test</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\test\test.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], TestPage);
@@ -864,6 +864,7 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/alternance/alternance.module#AlternancePageModule', name: 'AlternancePage', segment: 'alternance', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/bde/bde.module#BdePageModule', name: 'BdePage', segment: 'bde', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/competences/competences.module#CompetencesPageModule', name: 'CompetencesPage', segment: 'competences', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/alternance/alternance.module#AlternancePageModule', name: 'AlternancePage', segment: 'alternance', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contacter/contacter.module#ContacterPageModule', name: 'ContacterPage', segment: 'contacter', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/foodtruck/foodtruck.module#FoodtruckPageModule', name: 'FoodtruckPage', segment: 'foodtruck', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/formation/formation.module#FormationPageModule', name: 'FormationPage', segment: 'formation', priority: 'low', defaultHistory: [] },
@@ -1038,7 +1039,7 @@ var MyApp = /** @class */ (function () {
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Nav */])
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\app\app.html"*/'<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Menu</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n<span class="test">   </span> \n  <ion-content>\n      <ion-item (click)="openList(pages[0])"> <!-- Open List ici --> \n        {{pages[0].title}}\n          <ion-list *ngIf="boolCamp">\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> \n              {{p.title}}\n            </button>\n        </ion-list>\n      </ion-item>\n\n      <ion-item (click)="openList(pages[1])"> <!-- Open List ici --> \n        {{pages[1].title}}\n          <ion-list inset *ngIf="boolForm">\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> \n              {{p.title}}\n            </button>\n        </ion-list>\n      </ion-item>\n\n      <ion-item (click)="openList(pages[2])"> <!-- Open List ici --> \n        {{pages[2].title}}\n          <ion-list *ngIf="boolVie">\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> \n              {{p.title}}\n            </button>\n        </ion-list>\n      </ion-item>\n\n      <ion-item (click)="openList(pages[3])"> <!-- Open List ici --> \n        {{pages[3].title}}\n          <ion-list *ngIf="boolPlus">\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> \n              {{p.title}}\n            </button>\n        </ion-list>\n      </ion-item>\n  </ion-content>\n\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n<!--   <ion-content>\n    <ion-list>\n      <button ion-item (click)="openList(p)"> Open List ici \n        {{pages[0].title}}\n          <ion-list *ngIf="bool">\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> Open List ici  \n              {{p.title}}\n            </button>\n        </ion-list>\n      </button>\n    </ion-list>\n  </ion-content> -->'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\app\app.html"*/'<ion-menu [content]="content">\n\n  <ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>Menu</ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n\n\n<span class="test">   </span> \n\n  <ion-content>\n\n      <ion-item (click)="openList(pages[0])"> <!-- Open List ici --> \n\n        {{pages[0].title}}\n\n          <ion-list *ngIf="boolCamp">\n\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> \n\n              {{p.title}}\n\n            </button>\n\n        </ion-list>\n\n      </ion-item>\n\n\n\n      <ion-item (click)="openList(pages[1])"> <!-- Open List ici --> \n\n        {{pages[1].title}}\n\n          <ion-list inset *ngIf="boolForm">\n\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> \n\n              {{p.title}}\n\n            </button>\n\n        </ion-list>\n\n      </ion-item>\n\n\n\n      <ion-item (click)="openList(pages[2])"> <!-- Open List ici --> \n\n        {{pages[2].title}}\n\n          <ion-list *ngIf="boolVie">\n\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> \n\n              {{p.title}}\n\n            </button>\n\n        </ion-list>\n\n      </ion-item>\n\n\n\n      <ion-item (click)="openList(pages[3])"> <!-- Open List ici --> \n\n        {{pages[3].title}}\n\n          <ion-list *ngIf="boolPlus">\n\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> \n\n              {{p.title}}\n\n            </button>\n\n        </ion-list>\n\n      </ion-item>\n\n  </ion-content>\n\n\n\n\n\n</ion-menu>\n\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n\n\n\n<!--   <ion-content>\n\n    <ion-list>\n\n      <button ion-item (click)="openList(p)"> Open List ici \n\n        {{pages[0].title}}\n\n          <ion-list *ngIf="bool">\n\n            <button menuClose ion-item *ngFor="let p of choix" (click)="openPage(p)"> Open List ici  \n\n              {{p.title}}\n\n            </button>\n\n        </ion-list>\n\n      </button>\n\n    </ion-list>\n\n  </ion-content> -->'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
@@ -1094,7 +1095,7 @@ var ListPage = /** @class */ (function () {
     };
     ListPage = ListPage_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list',template:/*ion-inline-start:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n    test Message\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\chris\Desktop\Workshop\Workshop\src\pages\list\list.html"*/
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\list\list.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>List</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n  <ion-list>\n\n    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">\n\n      <ion-icon [name]="item.icon" item-start></ion-icon>\n\n      {{item.title}}\n\n      <div class="item-note" item-end>\n\n        {{item.note}}\n\n      </div>\n\n    </button>\n\n  </ion-list>\n\n  <div *ngIf="selectedItem" padding>\n\n    You navigated here from <b>{{selectedItem.title}}</b>\n\n    test Message\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\list\list.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], ListPage);
