@@ -4,6 +4,51 @@ webpackJsonp([13],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlternancePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Generated class for the AlternancePage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+var AlternancePage = /** @class */ (function () {
+    function AlternancePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    AlternancePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AlternancePage');
+    };
+    AlternancePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-alternance',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\alternance\alternance.html"*/'<!--\n\n  Generated template for the AlternancePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>L\'alternance</ion-title>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <button ion-button (click)="goHomePage()" icon-only color="light" class="house" >\n\n      <ion-icon name="home"></ion-icon>\n\n    </button>  \n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-card class="titre">\n\n    <ion-card-content>\n\n        <ion-card-title>\n\n          L’alternance à l’EPSI c’est:\n\n        </ion-card-title>\n\n    </ion-card-content>\n\n  </ion-card>\n\n  \n\n    <ion-card class="art">\n\n      <ion-card-content>\n\n          <li> 10 000 entreprises partenaires : résolument tournée vers le monde de l’entreprise, l’EPSI\n\n          entretient des liens forts avec de nombreuses entreprises régionales et nationales. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>    \n\n          <li> Un suivi personnalisé pour chaque apprenant: une aide à la recherche d’entreprise, à la\n\n          rédaction du CV, lettre de motivation, entretien. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>    \n\n          <li> Développement d’un projet professionnel : l’EPSI favorise la réussite de chacun en\n\n          trouvant des missions en entreprise qui vous correspondent et vous font progresser. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>      \n\n          <li> Une aide au montage du contrat : l’école aide les entreprises au recrutement et participe\n\n          au montage du contrat. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\alternance\alternance.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
+    ], AlternancePage);
+    return AlternancePage;
+}());
+
+//# sourceMappingURL=alternance.js.map
+
+/***/ }),
+
+/***/ 101:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BdePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
@@ -45,7 +90,7 @@ var BdePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 101:
+/***/ 102:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -87,51 +132,6 @@ var CompetencesPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=competences.js.map
-
-/***/ }),
-
-/***/ 102:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlternancePage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-/**
- * Generated class for the AlternancePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-var AlternancePage = /** @class */ (function () {
-    function AlternancePage(navCtrl, navParams) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-    }
-    AlternancePage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad AlternancePage');
-    };
-    AlternancePage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-alternance',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\alternance\alternance.html"*/'<!--\n\n  Generated template for the AlternancePage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>L\'alternance</ion-title>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n  <ion-card class="titre">\n\n    <ion-card-content>\n\n        <ion-card-title>\n\n          L’alternance à l’EPSI c’est:\n\n        </ion-card-title>\n\n    </ion-card-content>\n\n  </ion-card>\n\n  \n\n    <ion-card class="art">\n\n      <ion-card-content>\n\n          <li> 10 000 entreprises partenaires : résolument tournée vers le monde de l’entreprise, l’EPSI\n\n          entretient des liens forts avec de nombreuses entreprises régionales et nationales. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>    \n\n          <li> Un suivi personnalisé pour chaque apprenant: une aide à la recherche d’entreprise, à la\n\n          rédaction du CV, lettre de motivation, entretien. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>    \n\n          <li> Développement d’un projet professionnel : l’EPSI favorise la réussite de chacun en\n\n          trouvant des missions en entreprise qui vous correspondent et vous font progresser. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n    <ion-card class="art">\n\n      <ion-card-content>      \n\n          <li> Une aide au montage du contrat : l’école aide les entreprises au recrutement et participe\n\n          au montage du contrat. </li>\n\n      </ion-card-content>\n\n    </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\alternance\alternance.html"*/,
-        }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
-    ], AlternancePage);
-    return AlternancePage;
-}());
-
-//# sourceMappingURL=alternance.js.map
 
 /***/ }),
 
@@ -349,7 +349,7 @@ var MydilPage = /** @class */ (function () {
     };
     MydilPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-mydil',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\mydil\mydil.html"*/'<!--\n\n  Generated template for the MydilPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>     \n\n  	<button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>mydil</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\mydil\mydil.html"*/,
+            selector: 'page-mydil',template:/*ion-inline-start:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\mydil\mydil.html"*/'<!--\n\n  Generated template for the MydilPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n\n\n  <ion-navbar>     \n\n  	<button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Espace MY DIL</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding>\n\n\n\n  <ion-card class="art">\n\n      <ion-card-content>\n\n      	Un lieu où le savoir à la demande est à la portée de tous nos élèves et où le matériel modulable et high-tech est mis au service de l’expérimentation pédagogique.\n\n      </ion-card-content>\n\n  </ion-card>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\jpus9\Desktop\EPSI\testchris\WorkshopCJPSBD\src\pages\mydil\mydil.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavParams */]])
     ], MydilPage);
@@ -562,15 +562,15 @@ webpackEmptyAsyncContext.id = 121;
 
 var map = {
 	"../pages/alternance/alternance.module": [
-		287,
+		285,
 		12
 	],
 	"../pages/bde/bde.module": [
-		285,
+		286,
 		11
 	],
 	"../pages/competences/competences.module": [
-		286,
+		287,
 		10
 	],
 	"../pages/contacter/contacter.module": [
@@ -775,9 +775,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(206);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(282);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_test_test__ = __webpack_require__(208);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_alternance_alternance__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_bde_bde__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_competences_competences__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_alternance_alternance__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_bde_bde__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_competences_competences__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_contacter_contacter__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_foodtruck_foodtruck__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_formation_formation__ = __webpack_require__(105);
@@ -848,9 +848,9 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/alternance/alternance.module#AlternancePageModule', name: 'AlternancePage', segment: 'alternance', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/bde/bde.module#BdePageModule', name: 'BdePage', segment: 'bde', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/competences/competences.module#CompetencesPageModule', name: 'CompetencesPage', segment: 'competences', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/alternance/alternance.module#AlternancePageModule', name: 'AlternancePage', segment: 'alternance', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contacter/contacter.module#ContacterPageModule', name: 'ContacterPage', segment: 'contacter', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/foodtruck/foodtruck.module#FoodtruckPageModule', name: 'FoodtruckPage', segment: 'foodtruck', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/formation/formation.module#FormationPageModule', name: 'FormationPage', segment: 'formation', priority: 'low', defaultHistory: [] },
@@ -909,9 +909,9 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(206);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alternance_alternance__ = __webpack_require__(102);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bde_bde__ = __webpack_require__(100);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_competences_competences__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_alternance_alternance__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_bde_bde__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_competences_competences__ = __webpack_require__(102);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_contacter_contacter__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_foodtruck_foodtruck__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_formation_formation__ = __webpack_require__(105);

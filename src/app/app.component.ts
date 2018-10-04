@@ -46,7 +46,7 @@ export class MyApp {
     this.boolPlus = false;
     this.boolVie = false;
         this.campus = [
-      { title: 'Espace MyDil', component: MydilPage },
+      { title: 'Espace MY DIL', component: MydilPage },
       { title: 'Les 2 sites géographique', component: SitesPage },
       { title: 'Les espaces de travail', component: TravailPage },
       { title: 'Les espaces de vie', component: ViePage }

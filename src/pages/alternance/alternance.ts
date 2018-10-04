@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../../pages/home/home';
+
+
 
 /**
  * Generated class for the AlternancePage page.
@@ -16,6 +19,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class AlternancePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  goHomePage() {
+     this.navCtrl.setRoot(HomePage);
   }
 
   ionViewDidLoad() {
