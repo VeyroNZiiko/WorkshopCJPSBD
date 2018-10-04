@@ -29,5 +29,4 @@ export class SitesPage {
 
     this.map = new google.maps.Map(this.mapElement.nativeElement, mapOptions);
   }
-*/
 }
