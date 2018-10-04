@@ -22,6 +22,7 @@ import { ViePage } from '../pages/vie/vie';
 
 import { GoogleMaps } from '@ionic-native/google-maps';
 import { StatusBar } from '@ionic-native/status-bar';
+import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 @NgModule({
@@ -72,6 +73,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     StatusBar,
     SplashScreen,
     GoogleMaps,
+     BarcodeScanner,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
