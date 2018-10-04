@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { HomePage } from '../../pages/home/home';
 
 /**
  * Generated class for the BdePage page.
@@ -16,6 +17,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class BdePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+  }
+
+  goHomePage() {
+     this.navCtrl.setRoot(HomePage);
   }
 
   ionViewDidLoad() {
