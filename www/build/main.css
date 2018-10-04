@@ -25688,13 +25688,23 @@ button.item.item-block.item-md {
   background-color: rgba(0, 0, 255, 0);
 }
 
+ion-card.art {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+ion-card.titre {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .but {
   text-align: center;
 }
 
-/*ion-app._gmaps_cdv_ .nav-decor{
-	background-color: transparent !important; 
-}*/
+ion-app._gmaps_cdv_ .nav-decor {
+  background-color: transparent !important;
+}
+
 page-sites #map {
   height: 100%;
+  weight: 200px;
 }

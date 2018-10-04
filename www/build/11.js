@@ -1,14 +1,14 @@
 webpackJsonp([11],{
 
-/***/ 287:
+/***/ 285:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CompetencesPageModule", function() { return CompetencesPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BdePageModule", function() { return BdePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__competences__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bde__ = __webpack_require__(100);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var CompetencesPageModule = /** @class */ (function () {
-    function CompetencesPageModule() {
+var BdePageModule = /** @class */ (function () {
+    function BdePageModule() {
     }
-    CompetencesPageModule = __decorate([
+    BdePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__competences__["a" /* CompetencesPage */],
+                __WEBPACK_IMPORTED_MODULE_2__bde__["a" /* BdePage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__competences__["a" /* CompetencesPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__bde__["a" /* BdePage */]),
             ],
         })
-    ], CompetencesPageModule);
-    return CompetencesPageModule;
+    ], BdePageModule);
+    return BdePageModule;
 }());
 
-//# sourceMappingURL=competences.module.js.map
+//# sourceMappingURL=bde.module.js.map
 
 /***/ })
 

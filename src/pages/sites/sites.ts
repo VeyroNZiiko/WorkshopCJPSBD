@@ -1,57 +1,31 @@
-import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
-import { GoogleMaps, LatLng, GoogleMap, GoogleMapsEvent, MarkerOptions, Marker,CameraPosition } from '@ionic-native/google-maps';
-import { Component } from "@angular/core/";
+import { Component, ViewChild } from "@angular/core/";
+import { NavController} from 'ionic-angular';
 
-
-@IonicPage()
 @Component({
   selector: 'page-sites',
   templateUrl: 'sites.html',
 })
 export class SitesPage {
-  constructor(public navCtrl: NavController, public navParams: NavParams, public platform: Platform) {
-  	platform.ready().then(()=> {
-  		this.loadMap();
-  	});
+  @ViewChild('map') mapElement;
+  map: any;
+
+  constructor(public navCtrl: NavController) {
   }
 
+ /* ionViewDidLoad(){
+    this.initMap();
+  }
 
-/*  ionViewDidLoad() {
-    console.log('ionViewDidLoad SitesPage');
-    this.loadMap();
+  initMap(){
+    let latLng = new google.maps.LatLng(48.862725,2.2875920);
+
+    let mapOptions = {
+      center:latLng,
+      zoom: 15,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    this.map = new.google.maps.Map(this.mapElement.nativeElement, mapOptions);
   }
 */
-  loadMap(){
-  	let element: HTMLElement = document.getElementById('map');
-
-  	let map: GoogleMap = GoogleMaps.create(element);
-
-  	map.one(GoogleMapsEvent.MAP_READY).then(
-  		()=>{
-  		console.log("Map is ready");
-  		});
-
-  	let coord: LatLng = new LatLng(43.0741904,-89.3809802);
-
-  	let position : CameraPosition<LatLng> = {
-  		target: {lat:43.0741904 , lng : -89.3809802},
-      zoom: 10
-  	};
-
- /*   let position : CameraPosition = new CameraPosition(coord,18,30,40);*/
-
-  	map.moveCamera(position);
-
-  	let markerOptions :MarkerOptions = {
-  		position: coord,
-  		title: 'Ionic'
-  	};
-
-  	map.addMarker(markerOptions)
-  	.then((marker:Marker) => {
-  		marker.showInfoWindow();
-  		});
-  	
-  }
-
 }
